@@ -5,5 +5,8 @@ import "fmt"
 func main() {
 	fmt.Println("hello")
 	// slice()
-	controlStructure()
+	// controlStructure()
+	// basics()
+	// pointers()
+	structs()
 }

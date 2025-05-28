@@ -47,8 +47,8 @@ func slice() {
 	fmt.Println(num[:2], len(num[:2]), cap(num[:2]))
 	fmt.Println(num[1:], len(num[1:]), cap(num[1:]))
 
-	var ans = evenNumbers([]int{1, 2, 3, 4, 5, 6, 7, 8})
-	fmt.Println(ans)
+	// var ans = evenNumbers([]int{1, 2, 3, 4, 5, 6, 7, 8})
+	// fmt.Println(ans)
 
 	originalArray := []int{1, 2, 3}
 	deepCopy := make([]int, len(originalArray))
@@ -70,12 +70,12 @@ func slice() {
 
 }
 
-func evenNumbers(numbers []int) []int {
-	var evenArr []int
-	for _, v := range numbers {
-		if v%2 == 0 {
-			evenArr = append(evenArr, v)
-		}
-	}
-	return evenArr
-}
+// func evenNumbers(numbers []int) []int {
+// 	var evenArr []int
+// 	for _, v := range numbers {
+// 		if v%2 == 0 {
+// 			evenArr = append(evenArr, v)
+// 		}
+// 	}
+// 	return evenArr
+// }
