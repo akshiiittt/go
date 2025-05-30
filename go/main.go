@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	fmt.Println("hello")
@@ -8,5 +10,8 @@ func main() {
 	// controlStructure()
 	// basics()
 	// pointers()
-	structs()
+	// structs()
+	// maps()
+	goroutine()
+
 }
