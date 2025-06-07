@@ -1,0 +1,48 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*.test
+*.out
+
+# Output of the go coverage tool
+*.coverprofile
+
+# Vendor directory (if you commit vendor, remove this)
+vendor/
+
+# Dependency directories (if you use Go Modules, you can ignore these)
+Godeps/
+_glide/
+node_modules/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment files (if any)
+.env
+
+# Gin specific logs or temp files (if you create any)
+tmp/
+logs/
+
+# Mac OS files
+.DS_Store
+
+# JetBrains IDEs
+*.iml
+out/
+
+# Go build cache (optional, but useful)
+bin/
